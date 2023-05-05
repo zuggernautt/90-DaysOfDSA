@@ -1,7 +1,7 @@
 # Input: nums = [1,1,1,2,2,3], k = 2
 # Output: [1,2]
 #my brute force solution
-nums,k=[-1,-1],1
+nums,k=[1,1,1,2,2,3],2
 
 from collections import Counter
 
@@ -13,5 +13,15 @@ def topKFrequent(nums, k):
 
         top_values = [sorted_items[i][0] for i in range(k)]
         return top_values
+
+
+#use modiffied bucket sort algo
+# oprimized solution not done
+
+#def topKFrequent(nums, k):
+
+
+        
+        
 
 

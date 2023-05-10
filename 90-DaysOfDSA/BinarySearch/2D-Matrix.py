@@ -10,7 +10,7 @@ def searchMatrix(matrix, target):
             else:
                 False
                               
-
+#binary search
 def searchMatrix2(matrix, target):
         
     

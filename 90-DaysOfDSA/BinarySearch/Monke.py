@@ -20,3 +20,5 @@ def minEatingSpeed(piles, h):
             
 
 print(minEatingSpeed(piles, h))
+
+# linear algo taking long time and exceeding time limit like in above exampple

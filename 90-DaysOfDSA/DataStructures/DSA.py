@@ -12,4 +12,19 @@ y= {"a":"1", "b":"2", "c":3, 6:"f"}
 #print(y.get(6))
 
 z = (1,2,3,4,5)
-z.append(8)
+
+
+#set
+
+a = {"a", 3, "s", "e", 1}
+
+a.add(9)
+print(a)
+from dataclasses import dataclass
+#dataclasses
+@dataclass
+class Person:
+    name: str
+    address : str
+
+print(Person)

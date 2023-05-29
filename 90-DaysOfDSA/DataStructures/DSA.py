@@ -26,5 +26,9 @@ from dataclasses import dataclass
 class Person:
     name: str
     address : str
-
+    
 print(Person)
+
+#frozen set
+a = frozenset(["a", 1, "f"])
+print(a)

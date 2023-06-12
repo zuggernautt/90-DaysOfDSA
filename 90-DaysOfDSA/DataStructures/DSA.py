@@ -31,4 +31,15 @@ print(Person)
 
 #frozen set
 a = frozenset(["a", 1, "f"])
-print(a)
+#print(a
+
+#deque
+import collections
+
+s = collections.deque([1,2,3,4])
+
+print(s)
+
+s.appendleft(5)
+s.popleft()
+print(s)

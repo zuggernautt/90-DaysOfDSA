@@ -9,15 +9,10 @@ board = [["5","3",".",".","7",".",".",".","."]
         ,[".",".",".",".","8",".",".","7","9"]]
 import collections
 
-# rows = set()
-# columns = set()
-# grid = set()
-
-# row = set(board)
 def isValidSudoku(board):
-    rows = set()
-    columns = set()
-    grid = set()
+    rows = collections.defaultdict(set)
+    columns = collections.defaultdict(set)
+    grid = collections.defaultdict(set)
 
 
     for r in range(len(board)):

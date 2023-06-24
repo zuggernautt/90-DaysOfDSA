@@ -20,9 +20,12 @@ def bfs(graph, start_node):
         neighbours = graph(node)
 
         for neighbour in neighbours:
+            print(neighbour)
             if neighbour not in queue:
                 queue.extend(neighbour)
                 visited.add(neighbour)
 
-print(bfs(graph,start_node='A'))
+print(bfs(graph,'A'))
+
+
 

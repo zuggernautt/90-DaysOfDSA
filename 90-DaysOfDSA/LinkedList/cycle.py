@@ -16,3 +16,7 @@ class Solution:
                 return True
 
         return False
+    
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        return min(nums)

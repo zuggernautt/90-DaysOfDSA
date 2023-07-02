@@ -24,3 +24,4 @@ class Solution:
             return False
 
         return (self.isSameTree(root.left, subRoot.left) and self.isSameTree(root.right,subRoot.right))
+    

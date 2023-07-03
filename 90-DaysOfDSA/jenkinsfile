@@ -1,0 +1,27 @@
+pipeline {
+    agents any
+    environment {
+        NAME = 'amit'
+    }
+    stages {
+        stage ('demo'){
+        steps{
+        
+            echo "hello world"
+            
+        }
+        }
+    }
+
+    post {
+        always {
+        work always
+        }
+        success {
+            work on successful job only
+        }
+        failure {
+            work on failure job only
+        }
+    }
+}

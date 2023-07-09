@@ -1,0 +1,4 @@
+def encode:
+
+
+def decode:
